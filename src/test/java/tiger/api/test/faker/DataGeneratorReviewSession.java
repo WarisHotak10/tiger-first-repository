@@ -10,6 +10,7 @@ public class DataGeneratorReviewSession {
 		Faker faker = new Faker();
 		return faker.name().firstName() + faker.name().lastName() + "@Gmail.com";
 	}
+	// this is data generator faker
 	public static String getPhoneNumber() {
 		Faker faker = new Faker();
 		return faker.phoneNumber().cellPhone();
